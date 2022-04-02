@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final_HW</title>
+    <Link rel="stylesheet" href="css/style.css"> 
+</head>
+
+
+<body>
+
+    <div class="wrap">
+
+         <!-- 開頭連結區 -->
+        <div class="icon">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="image/facebookIcon.png" alt="facebook_icon">
+                        <span class="fb_text">粉絲團</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/twitterIcon.png" alt="twitter_Icon">
+                        <span class="twitter_text">追隨我們</span>
+                    </a>
+                </li>                       
+            </ul>
+        </div>
+
+ 
+       
+        <!-- 開頭小圖片區 -->
+        <div class="Header_List">
+            <a class="hexa_image" href="#" title="hexa_image">logo</a>
+            <ul>
+                <li><a href="#" title="首頁">首頁</a></li>
+                <li><a href="#" title="產品介紹">產品介紹</a></li>         
+                <li><a href="#" title="聯絡我們">聯絡我們</a></li> 
+            </ul>          
+        </div>
+
+        <!-- 開頭大圖片區 -->
+        <div class="Header_image">
+            <h1>六角學院<br>讓您奠定良好基礎</h1>
+        </div>
+
+
+
+        <!-- 課程簡易說明 -->
+        <ul class="Class_intro">
+            <li class="Class_content">
+                <img class="html_image" src="image/html.png" alt="html_lesson">
+                <h1>Html 5 基礎教學</h1>
+                <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法</p>      
+            </li>
+
+
+            <li class="Class_content">
+                <img class="rwd_image" src="image/rwd.png" alt="rwd_lesson">
+                <h1>響應式網站設計</h1>
+                <p>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>     
+            </li>
+
+            <li class="Class_content">
+                <img class="jQuery_image" src="image/jQuery.png" alt="jQuery_lesson">
+                <h1>jQuery實戰教學</h1>
+                <p>本課程有以下特色
+                    <ul class="jQuery_List">
+                        <li>瞭解變數的使用方法</li>
+                        <li>學習並操作DOM</li>
+                        <li>學習基本數學運算方法</li>
+                        <li>套件的操作及運用</li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
+
+
+
+        <!-- 比較表 -->
+        <div class="Comparison_chart">
+            <h1>線上及實體課程差異</h1>
+            <table>
+                <tr>
+                    <th>項目</th>
+                    <th>Hex School 線上課程</th>
+                    <th>一般線上課程</th>
+                    <th>實體課程</th>
+                </tr>
+                <tr>
+                    <td>費用</td>
+                    <td class="green_font">較低</td>
+                    <td class="green_font">較低</td>
+                    <td>較高</td>
+                </tr>
+                <tr>
+                    <td>學習效果</td>
+                    <td>一般</td>
+                    <td class="green_font">較低</td>
+                    <td class="green_font">很好</td>
+                </tr>
+                <tr>
+                    <td>Code review</td>
+                    <td class="green_font">有</td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <td>課程更新速度</td>
+                    <td class="green_font">普通</td>
+                    <td class="green_font">普通</td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <td>多次複習</td>
+                    <td class="green_font">可</td>
+                    <td>可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <td>字幕</td>
+                    <td class="green_font">有</td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 表格區 -->
+        <div class="Get_Info">
+            <h1>對我們課程有興趣嗎?<br>歡迎留下您的資料</h1>
+            <div class="Form_content">
+                <div class="Comment_Area">
+                    <label for="Comment">留下您的寶貴意見</label>
+                    <form action="index.html">
+                        <textarea id="Comment" name="Comment" cols="60" rows="10" placeholder="留下您的寶貴意見"></textarea>
+                    </form>
+                </div>
+
+                <div class="Personal_Info">
+                    <ul>
+                        <li>
+                            <label for="Name">姓名</label>
+                            <input class="Input_content" id="Name" type="text" placeholder="六角講師" name="Name">
+                        </li>
+                        <li>
+                            <label for="Phone">電話</label>
+                            <input class="Input_content" id="Phone" type="text" placeholder="0912345678" name="Phone">
+                        </li>
+                        <li>
+                            <label for="Mail">信箱</label>
+                            <input class="Input_content" id="Mail" type="text" placeholder="hexschool@mail.com" name="Mail">
+                        </li>
+                    </ul>
+                    <input class="Submission" type="submit" value="送出">
+                 </div>
+
+            </div>
+ 
+        </div>
+
+
+        <!-- 頁尾 -->
+        <div class="footer">
+            <a href="#" title="hex_school">hex_school</a>
+            <ul>
+                <li>聯絡我們:<span class="Red_Font">hexschool@gmail.com</span></li>
+                <li>電話:<span class="Red_Font">0999123456</span></li>
+            </ul>
+        </div>
+
+    </div>   
+        
+
+
+
+
+            
+
+
+
+
+
+        
+
+    
+
+
+
+        
+
+        
+
+     
+
+
+
+      
+    
+
+       
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>

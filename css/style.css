@@ -1,0 +1,458 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*👉*{
+
+outline: 1px solid black;
+
+}👈*/
+
+
+.wrap
+{
+
+width: 1000px;
+height:415px;
+margin: 0 auto;
+
+}
+
+
+/*開頭連結區*/
+
+.icon
+{
+background-color: #f6f6f6;
+height:28px ;
+}
+
+.icon ul
+{
+    float: right;
+    display: flex;
+}
+
+
+.icon a
+{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.icon a:hover
+{
+    background-color: aqua;
+}
+
+.icon img
+{
+    vertical-align: bottom;
+}
+
+
+.fb_text 
+{
+    color:#5c74ab
+}
+
+.twitter_text 
+{
+    color:#21b4ed
+}
+
+
+/*開頭列表*/
+
+.Header_List
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.Header_List .hexa_image
+{
+
+  background: url(../image/logo.png) no-repeat center;
+  display: block;
+  height: 55px;
+  width: 200px;
+  text-indent:101%;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.Header_List .hexa_image:hover
+{
+    background: aqua;
+    background: url(../image/footerlogo.png) no-repeat center;
+    display: block;
+    text-indent:101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Header_List ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Header_List li
+{
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.Header_List ul a
+{
+ color:#44dab4;
+ font-weight: bold;
+}
+
+
+.Header_List ul a:hover
+{
+  color:yellow;
+  background: #21b4ed;
+
+}
+
+
+
+/*開頭大圖片區*/
+
+.Header_image
+{  
+    background-image: url('../image/banner.png');
+    height: 340px;
+    display: flex;
+    align-items: center;
+}
+
+.Header_image h1
+{
+ 
+ background-color: rgba(33, 32, 30, .1);
+ 
+ font-size: 35px;
+ width: 1000px;
+ color: #ffffff;
+ padding: 40px 0px 40px 20px;
+
+
+ 
+
+}
+
+
+/*課程簡易說明*/
+
+.Class_intro
+{
+margin-top: 60px;
+display: flex;
+justify-content: space-between;
+}
+
+.Class_content
+{
+border-radius: 5px;
+box-shadow:1px 2px 3px gray;
+padding: 20px;
+margin: 0px 10px;
+width: 300px;
+height: 360px;
+}
+
+
+.Class_content .html_image
+{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.Class_content .rwd_image
+{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+.jQuery_image
+{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+.Class_intro h1
+{
+  font-size: 22px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Class_intro p
+{
+  font-size: 16px;
+  display: block;
+  line-height: 20px;
+}
+
+.jQuery_List
+{
+    line-height: 20px;
+    list-style: disc;
+    list-style-position: inside;;
+}
+
+
+
+/*比較表*/
+
+
+.Comparison_chart h1
+{
+
+text-align: center;
+margin-top: 65px;
+margin-bottom: 30px;
+font-size: 25px;
+font-weight: bold;
+
+}
+
+.Comparison_chart table
+{
+    width: 840px;
+    height: 260px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.Comparison_chart tr
+{
+border-top: 2px solid #dddddd;
+border-bottom: 2px solid #dddddd;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.Comparison_chart th,td
+{
+width: 110px;
+height: 10px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left; 
+vertical-align: middle;
+padding-left: 30px;
+}
+
+.Comparison_chart th
+{
+    font-weight:900;
+    background-color: #f7f7f7;
+}
+
+.Comparison_chart .green_font
+{
+    color: #11ac86;
+}
+
+
+
+
+
+/* 表格區 */
+.Get_Info
+{
+    background: linear-gradient(#00654b,#009872
+    );
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+
+.Form_content
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.Get_Info h1
+{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.Comment_Area label
+{
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Get_Info textarea
+{
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.Get_Info textarea:focus
+{
+    border-radius: 10px;
+    box-shadow: 0 0 5px red inset;
+    background-color: yellow;
+    color: blue;
+}
+
+/*👉姓名電話信箱👈*/
+
+.Personal_Info ul, .Personal_Info li
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Personal_Info li
+{
+    margin: 0px 20px 20px 20px;
+    width: 450px;
+}
+
+.Submission
+{
+    width: 70px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+    background-color: #00cc99 ;
+    color: white;
+}
+
+.Personal_Info label
+{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.Input_content
+{
+    padding: 5px;
+}
+
+.Input_content::placeholder
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Input_content:focus
+{
+    border-radius: 10px;
+    box-shadow: 0 0 5px red inset;
+    background-color: yellow;
+    color: blue;
+}
+
+/*👉頁尾👈*/
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer a
+{
+    background: url(../image/footerLogo.png) no-repeat center;
+    display: block;
+    width: 175px;
+    height: 35px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.footer li
+{
+    height: 30px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer span
+{
+    margin-left: 5px;
+    color: #e12d80;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
