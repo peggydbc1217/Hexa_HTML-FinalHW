@@ -133,7 +133,7 @@ height:28px ;
 .Header_List .hexa_image:hover
 {
     background: aqua;
-    background: url(../image/footerlogo.png) no-repeat center;
+    background: url(../image/footerLogo.png) no-repeat center;
     display: block;
     text-indent:101%;
     overflow: hidden;
